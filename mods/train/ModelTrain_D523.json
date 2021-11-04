@@ -1,0 +1,139 @@
+{
+
+"trainName": "D523",
+
+"trainType": "EC",
+
+"trainModel2": { "modelFile": "ModelTrain_D523.mqo",
+                   "textures": [["mat1", "textures/train/D521.png", "AlphaBlend"],
+                                ["mat2", "textures/train/521-3.png", ""]]},      
+"doCulling": "true",     
+
+"bogieModel2": { "modelFile": "DT71N.mqo",
+                   "textures": [["default", "textures/DT71.png"]]},
+
+"buttonTexture": "textures/train/button_D523.png",
+
+"smoothing": true,
+
+
+"sound_S_A": "train.rtm_223_go-mid",
+"sound_Acceleration": "train.rtm_223_mid",
+"sound_Deceleration": "train.rtm_223_mid",
+"sound_D_S": "train.rtm_223_mid-stop",
+"sound_BrakeRelease": "sound_mugenlib:RTMLib.Brake.BR7N",
+"sound_BrakeRelease2": "sound_mugenlib:RTMLib.Brake.BR7L",
+"sound_Horn": "sound_mugenlib:RTMLib.Horn.Horn4",
+"sound_DoorOpen": "sound_d521:d521.d521_Open",
+"sound_DoorClose": "sound_d521:d521.d521_Close",
+"soundScriptPath": "scripts/MugenLib_E721IGBT.js",
+"sound_Announcement": [["EmergencyHone", "sound_mugenlib:RTMLib.Horn.Horn3"],
+                       ["EB_announce","sound_mugenlib:RTMLib.sound.E233_Emergency_announce"],
+                       ["Ding","sound_mugenlib:RTMLib.sound.Ding"],
+                       ["Announce","sound_mugenlib:RTMLib.sound.E301-announce1"],
+                       ["DoorAnnounce","sound_mugenlib:RTMLib.sound.E531_door_Announce"],
+                       ["Water Crown1","sound_mugenlib:RTMLib.sound.Water_Crown_1"],
+                       ["Water Crown2","sound_mugenlib:RTMLib.sound.Water_Crown_2"],
+                       ["Water Crown3","sound_mugenlib:RTMLib.sound.Water_Crown_3"],
+                       ["Gota del Vient","sound_mugenlib:RTMLib.sound.Gota_del_Vient"],
+                       ["One_announce","sound_mugenlib:RTMLib.sound.E301-oneman1"],
+                       ["One_departure","sound_mugenlib:RTMLib.sound.E301-oneman2"],
+                       ["One_doorL_unman","sound_mugenlib:RTMLib.sound.E301-oneman4"],
+                       ["One_doorR_unman","sound_mugenlib:RTMLib.sound.E301-oneman3"],
+                       ["One_doorL","sound_mugenlib:RTMLib.sound.E301-oneman5"],
+                       ["One_doorR","sound_mugenlib:RTMLib.sound.E301-oneman6"],
+                       ["Step warning","sound_mugenlib:RTMLib.sound.E301-announce2"],
+                       ["NextLast","sound_mugenlib:RTMLib.sound.E301-oneman7"],
+                       ["OneLastL","sound_mugenlib:RTMLib.sound.E301-oneman9"],
+                       ["OneLastR","sound_mugenlib:RTMLib.sound.E301-oneman8"]],
+
+"door_left": [
+ {"objects": ["doorLF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.644]  ]},
+ {"objects": ["doorLB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.644]]}
+],
+
+"door_right": [
+ {"objects": ["doorRF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.644]]},
+ {"objects": ["doorRB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.644]]} 
+],
+
+"pantograph_back": [
+                      {
+                          "objects": ["pnt1"],
+                          "pos": [0.0, 0.0, 0.0],
+                          "transform": [[0.0, -0.7, 0.01000],
+                              [0.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["pnt2"],
+                          "pos": [0.0, 4.1042, -7.4176],
+                          "transform": [[0.0, -0.45, 0.01],
+                              [-14, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["pnt3"],
+                          "pos": [0.0, 0.0, 0.0],
+                          "transform": [[0.0, -0.20, 0.08],
+                              [0.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["pnt4"],
+                          "pos": [0.0, 3.3833, -7.3851],
+                          "transform": [[0.0, -0.12, 0.005],
+                              [10.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["pnt5"],
+                          "pos": [0.0, 3.2325, -7.0979],
+                          "transform": [[0.0, -0.09, 0.0],
+                              [15.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      }
+  ],
+
+"rollsignTexture": "textures/train/DR_Roles_D521.png",
+"rollsignNames": ["None","Out_of_Service","Test_run","Extra","Party","Ashikaga Line","Ashikawa Line","Takanomiya Line","ViaTakanomiya","ViaKataRail","KatamatsuLine","Otetsu Line","Via Otetsu Line","Sinku Line","Via Sinku","Watagawa Line","NagAir Line","Ohara Railway","Rifu Line","Telephone Line","Shiroiso Line","TelEnjPTrain","Tel-Server","Ashi-Sinku","TakAshi-Sinku","Ashi-Otetsu","Tak-Tel","I.A.T.S.I.O","DR","Local","Ashikaga","H_Ashikaga","Shin-Ashikaga","S_Ashikaga","Takaku","Ohara","Shin-Ohara","Nagamori","Nag-Airport","Takanomiya","Matsuda","Katamatsu","Tanoyama","Iwakitanakura","Shin-Nakatoyo","Shin-Tanakura","Mikawa","Fukakusa","Sengen","Fujiwara","Nakatoyo","Fujioka","Tsutsui","Shin-Kurokawa","Inahara",Oyama","Mihama","Daiki","Meihan","Rifu","Iwakidori","Shin-Shirakawa","Nakayama","Shin-Nakayama","Hoshigaya","Shiroiso","Rapid","R_Ashikaga","R_Shin-Ashikaga","R_H_Ashikaga","R_Takaku","R_Ohara","R_Nagamori","R_Nag_Airport","R_Takanomiya","R_Shin-Kurokawa","R_Iwakitanakura","R_Mikawa","R_Fukakusa","R_Sengen","R_Inahara","R_Oyama","R_Fujioka","R_Rifu","R_Hoshigaya","Special Rapid","SR_Ashikaga","SR_Takaku","SR_Nagamori","SR_Iwakitanakura","SR_Takanomiya","SR_Fukakusa","SR_Oyama","SR_Hoshigaya","AirRaid_Ashikaga","AirRapid_Nagamori","AirRapid_Nag_Air","AirRapid_Iwatana","Conductorless","CT_Ashikaga","CT_Takaku","CT_Ohara","CT_Nagamori","CT_Iwakitanakura","CT_Shin-Tanakura","CT_Mikawa","CT_Takanomiya","CT_Matsuda","CT_Katamatsu","CT_Shin-Nakatoyo","CT_Tutsui","CT_Tanoyama","CT_Oyama","CT_Fujiwara","Conductorless Rapid","Nubesuko Rapid","D521"],
+"rollsigns": [
+    {
+      "uv": [0.0, 1.0, 0.0, 1.00],
+      "pos": [[[1.4078, 2.339, -2.5521], [1.4078, 2.199, -2.5521], [1.4078, 2.199, -1.9321], [1.4078, 2.339, -1.9321]]],
+      "doAnimation": false,
+    	"disableLighting": false
+    },
+    {
+      "uv": [0.0, 1.0, 0.0, 1.00],
+      "pos": [[[-1.4078, 2.339, 2.5521], [-1.4078, 2.199, 2.5521], [-1.4078, 2.199, 1.9321], [-1.4078, 2.339,1.9321]]],
+      "doAnimation": false,
+    	"disableLighting": false
+    }
+  ],          
+"seatPos": [[12, 0, 130, 2], [12, 0, 110, 2], [12, 0, 90, 2], [12, 0, 70, 2], [12, 0, 50, 2], [12, 0, 30, 2], [12, 0, 10, 2],
+			[12, 0, -130, 2], [12, 0, -110, 2], [12, 0, -90, 2], [12, 0, -70, 2], [12, 0, -50, 2], [12, 0, -30, 2], [12, 0, -10, 2],
+			[-12, 0, 130, 2], [-12, 0, 110, 2], [-12, 0, 90, 2], [-12, 0, 70, 2], [-12, 0, 50, 2], [-12, 0, 30, 2], [-12, 0, 10, 2],
+			[-12, 0, -130, 2], [-12, 0, -110, 2], [-12, 0, -90, 2], [-12, 0, -70, 2], [-12, 0, -50, 2], [-12, 0, -30, 2], [-12, 0, -10, 2]],
+
+"renderLight": true,
+"playerPos": [[0.5, 0.4, 8.9], [-0.7, 0.2, -9.0]],
+"bogiePos": [[0.0, 0.0, 7.2], [0.0, 0.0, -7.1]],
+"trainDistance": 10.0,
+"accelerateion": 0.00158,
+"muteJointSound": "true",
+"rolling": 0.3 
+}

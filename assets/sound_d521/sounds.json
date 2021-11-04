@@ -1,0 +1,15 @@
+{
+  "d521.d521_Close": {
+    "category": "neutral",
+    "sounds": [
+      "d521/d521_Close"
+    ]
+  },
+  "d521.d521_Open": {
+    "category": "neutral",
+    "sounds": [
+      "d521/d521_Open"
+    ]
+  }
+
+}
